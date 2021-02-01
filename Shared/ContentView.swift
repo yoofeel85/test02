@@ -25,7 +25,7 @@ struct ContentView: View {
                 //.padding(.top, 15)
                 //.padding(.horizontal, 15)
                 
-                Text("yoofeel todo1")
+                Text("yoo todo!!")
                     .font(.system(size:40))
                     .fontWeight(.black)
                     .padding(.horizontal, 20)
