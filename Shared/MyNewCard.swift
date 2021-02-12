@@ -7,40 +7,47 @@
 
 import SwiftUI
 
-struct MySmallCard: View {
+struct MyNewCard: View {
+    
+    var icon : String
+    var title : String
+    var start : String
+    var end : String
+    var bgColor : Color
+    
     
     var body: some View{
     
         HStack(spacing: 10){
             
-            Image(systemName: "flame.fill")
+            Image(systemName: icon)
                 .font(.system(size: 35))
                 .foregroundColor(.white)
             //.frame(width: 75, height: 75)
             
             VStack(alignment: .leading, spacing: 0){
                 Divider().opacity(0)
-                Text("hello")
+                Text(title)
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                     .font(.system(size: 23))
                     .foregroundColor(.white)
                 
                 Spacer().frame(height: 5)
                 
-                Text("AM 10 - AM 11")
+                Text("\(start) - \(end)")
                     .foregroundColor(.white)
             }
             
         }
         .padding(20)
-        .background(Color.purple)
+        .background(bgColor)
         .cornerRadius(20)
     }
 }
 
 
-//struct MySmallCard_Previews: PreviewProvider {
-//    static var previews: some View {
-//        MySmallCard()
-//    }
-//}
+struct MyNewCard_Previews: PreviewProvider {
+    static var previews: some View {
+        MyNewCard(icon: "book.fill", title: "read book", start: "1 PM", end: "2 PM", bgColor: Color.green)
+    }
+}

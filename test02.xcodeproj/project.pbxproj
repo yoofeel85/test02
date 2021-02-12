@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E92CB0A425D6C1F900CCE18C /* MyNewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CB0A325D6C1F900CCE18C /* MyNewCard.swift */; };
+		E92CB0A525D6C1F900CCE18C /* MyNewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CB0A325D6C1F900CCE18C /* MyNewCard.swift */; };
 		E92E14EE25C1A90800BCDD29 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E14ED25C1A90800BCDD29 /* Tests_iOS.swift */; };
 		E92E14F925C1A90800BCDD29 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E14F825C1A90800BCDD29 /* Tests_macOS.swift */; };
 		E92E14FB25C1A90800BCDD29 /* test02App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E14D225C1A90700BCDD29 /* test02App.swift */; };
@@ -39,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E92CB0A325D6C1F900CCE18C /* MyNewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNewCard.swift; sourceTree = "<group>"; };
 		E92E14D225C1A90700BCDD29 /* test02App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test02App.swift; sourceTree = "<group>"; };
 		E92E14D325C1A90700BCDD29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E92E14D425C1A90800BCDD29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,6 +112,7 @@
 				E92E14D425C1A90800BCDD29 /* Assets.xcassets */,
 				E9F6A8FB25C1AF50000E58FD /* MyCard.swift */,
 				E9F6A90225C1AFA5000E58FD /* MySmallCard.swift */,
+				E92CB0A325D6C1F900CCE18C /* MyNewCard.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -318,6 +322,7 @@
 			files = (
 				E92E14FD25C1A90800BCDD29 /* ContentView.swift in Sources */,
 				E9F6A90325C1AFA5000E58FD /* MySmallCard.swift in Sources */,
+				E92CB0A425D6C1F900CCE18C /* MyNewCard.swift in Sources */,
 				E92E14FB25C1A90800BCDD29 /* test02App.swift in Sources */,
 				E9F6A8FC25C1AF50000E58FD /* MyCard.swift in Sources */,
 			);
@@ -329,6 +334,7 @@
 			files = (
 				E92E14FE25C1A90800BCDD29 /* ContentView.swift in Sources */,
 				E9F6A90425C1AFA5000E58FD /* MySmallCard.swift in Sources */,
+				E92CB0A525D6C1F900CCE18C /* MyNewCard.swift in Sources */,
 				E92E14FC25C1A90800BCDD29 /* test02App.swift in Sources */,
 				E9F6A8FD25C1AF50000E58FD /* MyCard.swift in Sources */,
 			);

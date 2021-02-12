@@ -33,12 +33,10 @@ struct ContentView: View {
                 ScrollView{
                     VStack{
                         MyCard()
-                        MySmallCard()
-                        MySmallCard()
-                        MySmallCard()
-                        MySmallCard()
-                        MySmallCard()
-                        MySmallCard()
+                        MyNewCard(icon: "book.fill", title: "read book", start: "1 PM", end: "2 PM", bgColor: Color.red)
+                        MyNewCard(icon: "book.fill", title: "read book", start: "1 PM", end: "2 PM", bgColor: Color.green)
+                        MyNewCard(icon: "book.fill", title: "read book", start: "1 PM", end: "2 PM", bgColor: Color.purple)
+                        MyNewCard(icon: "book.fill", title: "read book", start: "1 PM", end: "2 PM", bgColor: Color.gray)
                         
                     }.padding()
                 }
