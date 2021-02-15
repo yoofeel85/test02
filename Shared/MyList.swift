@@ -10,18 +10,16 @@ import UIKit
 
 struct MyList: View {
     
-    //@Binding var isNavigationBarHidden: Bool
-    
-    init(isNavigationBarHidden: Binding<Bool> = .constant(false)) {
-        if #available(iOS 14.0, *){
-
-        } else {
-            UITableView.appearance().tableFooterView = UIView()
-        }
-
-        UITableView.appearance().separatorStyle = .none
+    init() {
+//        if #available(iOS 14.0, *){
+//
+//        } else {
+//            UITableView.appearance().tableFooterView = UIView()
+//        }
+//
+//        UITableView.appearance().separatorStyle = .none
         
-        //_isNavigationBarHidden = isNavigationBarHidden
+//        UITableView.appearance().separatorColor = .clear
     }
     
     
@@ -62,7 +60,7 @@ struct MyList: View {
         }
         //.listStyle(GroupedListStyle())
         .listStyle(PlainListStyle())
-        .navigationBarTitle("My list")
+//        .navigationBarTitle("My list")
     }
 }
 

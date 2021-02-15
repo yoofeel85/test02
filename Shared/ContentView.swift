@@ -29,8 +29,16 @@ struct ContentView: View {
                         
                         
                         Spacer()
-                        Image(systemName: "person.crop.circle.fill")
-                            .font(.largeTitle)
+                        
+                        NavigationLink(
+                            destination: MyProfileView(),
+                            label: {
+                                Image(systemName: "person.crop.circle.fill")
+                                    .font(.largeTitle)
+                                    .foregroundColor(.black)
+                            })
+                            .navigationBarTitle("안녕하세요!", displayMode: .automatic)
+                    
                     }
                     .padding(20)
                     //.padding(.top, 15)

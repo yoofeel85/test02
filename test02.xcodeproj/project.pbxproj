@@ -19,6 +19,10 @@
 		E92E14FE25C1A90800BCDD29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E14D325C1A90700BCDD29 /* ContentView.swift */; };
 		E92E14FF25C1A90800BCDD29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92E14D425C1A90800BCDD29 /* Assets.xcassets */; };
 		E92E150025C1A90800BCDD29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92E14D425C1A90800BCDD29 /* Assets.xcassets */; };
+		E973B2B825DAB58F00E01639 /* MyNaviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E973B2B725DAB58F00E01639 /* MyNaviView.swift */; };
+		E973B2B925DAB58F00E01639 /* MyNaviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E973B2B725DAB58F00E01639 /* MyNaviView.swift */; };
+		E973B2BF25DABFB200E01639 /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E973B2BE25DABFB200E01639 /* MyProfileView.swift */; };
+		E973B2C025DABFB200E01639 /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E973B2BE25DABFB200E01639 /* MyProfileView.swift */; };
 		E9F6A8FC25C1AF50000E58FD /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F6A8FB25C1AF50000E58FD /* MyCard.swift */; };
 		E9F6A8FD25C1AF50000E58FD /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F6A8FB25C1AF50000E58FD /* MyCard.swift */; };
 		E9F6A90325C1AFA5000E58FD /* MySmallCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F6A90225C1AFA5000E58FD /* MySmallCard.swift */; };
@@ -59,6 +63,8 @@
 		E92E14F425C1A90800BCDD29 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92E14F825C1A90800BCDD29 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		E92E14FA25C1A90800BCDD29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E973B2B725DAB58F00E01639 /* MyNaviView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNaviView.swift; sourceTree = "<group>"; };
+		E973B2BE25DABFB200E01639 /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
 		E9F6A8FB25C1AF50000E58FD /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 		E9F6A90225C1AFA5000E58FD /* MySmallCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySmallCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +118,8 @@
 			children = (
 				E92E14D225C1A90700BCDD29 /* test02App.swift */,
 				E92E14D325C1A90700BCDD29 /* ContentView.swift */,
+				E973B2BE25DABFB200E01639 /* MyProfileView.swift */,
+				E973B2B725DAB58F00E01639 /* MyNaviView.swift */,
 				E92E14D425C1A90800BCDD29 /* Assets.xcassets */,
 				E9F6A8FB25C1AF50000E58FD /* MyCard.swift */,
 				E9F6A90225C1AFA5000E58FD /* MySmallCard.swift */,
@@ -324,11 +332,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E973B2BF25DABFB200E01639 /* MyProfileView.swift in Sources */,
 				E92E14FD25C1A90800BCDD29 /* ContentView.swift in Sources */,
 				E9F6A90325C1AFA5000E58FD /* MySmallCard.swift in Sources */,
 				E92CB0A425D6C1F900CCE18C /* MyNewCard.swift in Sources */,
 				E92E14FB25C1A90800BCDD29 /* test02App.swift in Sources */,
 				E9F6A8FC25C1AF50000E58FD /* MyCard.swift in Sources */,
+				E973B2B825DAB58F00E01639 /* MyNaviView.swift in Sources */,
 				E92CB0AB25D6CFA800CCE18C /* MyList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,11 +347,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E973B2C025DABFB200E01639 /* MyProfileView.swift in Sources */,
 				E92E14FE25C1A90800BCDD29 /* ContentView.swift in Sources */,
 				E9F6A90425C1AFA5000E58FD /* MySmallCard.swift in Sources */,
 				E92CB0A525D6C1F900CCE18C /* MyNewCard.swift in Sources */,
 				E92E14FC25C1A90800BCDD29 /* test02App.swift in Sources */,
 				E9F6A8FD25C1AF50000E58FD /* MyCard.swift in Sources */,
+				E973B2B925DAB58F00E01639 /* MyNaviView.swift in Sources */,
 				E92CB0AC25D6CFA800CCE18C /* MyList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
